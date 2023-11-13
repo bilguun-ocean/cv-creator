@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.user-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid black;
+  flex-grow: 0;
+  height: 250px;
+
+}
+
+.user-inputs form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.user-inputs input {
+  display: block;
+  width: 250px;
+}
+
+.user-inputs button {
+  width: 80px;
+}
+
+.user-inputs ul {
+  list-style-type: none;
+  overflow: scroll;
+}
+
+li button{
+  display: inline;
+}
+
+.user-inputs > section {
+  padding: 10px 30px ;
+  border-radius: 10px;
+}
+
+.user-inputs input {
+  font-size: 14px;
+  height: 36px;
+  border-radius: 10px;
+  padding: 2px 5px;
+  border: 2px solid black;
+}
+
+h1 button {
+  padding: 2px 5px;
+  margin-left: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+h1 button:hover {
+  cursor: pointer;
+  background-color: rgb(187, 187, 187);
+}
+ul li p {
+  padding: 5px;
+}
+
+ul li:hover {
+  background-color: #dcdcdc;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+ul li button {
+  padding: none;
+  margin: none;
+}
+
+ul li button:hover {
+  cursor: pointer;
+  color: red;
+
+}
+
+ul li {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}

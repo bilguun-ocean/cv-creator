@@ -1,0 +1,71 @@
+.display {
+  width: 100%;
+  height: 100%;
+}
+#cv-page {
+  box-shadow: 2px 2px 5px 2px #888888;
+  width: 800px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#cv-page .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  height: 8%;
+  overflow: hidden;
+}
+
+#cv-page > section {
+  padding: 60px;
+}
+
+#cv-page .info h1 {
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#cv-page .education {
+  height: 15%;
+
+}
+
+
+.edu-list {
+  display: flex;
+  flex-direction: row; /* Set the initial direction to row */
+  flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+  gap: 20px; /* Add some spacing between items */
+  overflow: auto; /* Add overflow:auto to enable scrolling if needed */
+}
+
+.edu-list > div {
+  /* Add any necessary styles for each item in the .edu-list */
+  /* For example, you might want to set a specific width */
+  width: 400px;
+}
+
+#cv-page .experience {
+  height: 15%;
+}
+
+#cv-page h3 {
+  margin-bottom: 10px;
+  color: rgb(0, 118, 196);
+}
+
+.less-imp {
+  font-size: 0.9em;
+  color: gray;
+}
+
+#cv-page .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
